@@ -328,6 +328,12 @@
             opacity: 0;
         }
 
+        @media only screen and (max-width: 600px) {
+            #text-click {
+                font-size: 16px;
+            }
+        }
+
         @keyframes hover {
             0% {
                 margin-top: 60px;
@@ -416,7 +422,7 @@
 
         text {
             fill: #e6668a;
-            font-family: consolas;
+            font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
             font-size: 9px;
         }
 
@@ -456,9 +462,11 @@
         </defs>
 
         <text dy="-2">
-            <textPath style="font-family: fantasy;" xlink:href="#partialPath" startOffset="12">
+            <textPath
+                style="font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;"
+                xlink:href="#partialPath" startOffset="12">
                 Happy Women's Day
-                🌹..............................................................................From Heo thơm with love
+                🌹..............................................................................From Heo with love
                 !.............................................................
             </textPath>
         </text>
@@ -747,7 +755,7 @@
                                  c-16.072-12.613-41.381-26.674-72.329-23.977c-21.664,2.405-52.653,12.308-77.277,45.856c-13.392,19.922-16.495,52.272,4.132,72.986
                                  c3.371,3.385,7.075,6.243,11.008,8.573c4.885,2.894,10.125,4.964,15.515,6.228C354.624,212.802,357.947,181.899,370.903,162.627z" />
         </svg>
-        <p id="text-click" style=" display: none;   font-family: fantasy;
+        <p id="text-click" style=" display: none;   font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
         color: indianred;
         font-size: 50px;
         cursor: pointer;
